@@ -1,0 +1,411 @@
+body
+  {
+    background-color: lightgray;
+  }
+#main
+  {
+    background-color: white;
+    width: 600px;
+    height: 2000px;
+    position: absolute;
+    top: 10px;
+    left: 195px;
+  }
+#homemaindiv
+  {
+    width: 100%;
+    height: 450px;
+    background-image: url(Images/ChocolateHome_FPL2_S&C.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+#homeheader
+  {
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.57;
+  }
+#homenav
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 460px;
+    height: 50px;
+    position: absolute;
+    left: 125px;
+  }
+#ul1
+  {
+    padding-top: 6px;
+  }
+#ul1 .homeli
+  {
+    display: inline-block;
+    padding-left: 5px;
+    background-color: #eac10b;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    border-radius: 0 13px;
+    margin-left: 15px;
+  }
+#ul1 .homeli a
+  {
+    text-decoration: none;
+    color: black;
+    font-size: 15.6px;
+    font-weight: bold;
+  }
+#h:hover 
+  {
+    box-shadow: 10px -10px white;
+  }
+#au:hover 
+  {
+    box-shadow: 10px -10px white;
+  }
+#p:hover 
+  {
+    box-shadow: 10px -10px white;
+  }
+#cus:hover 
+  {
+    box-shadow: 10px -10px white;
+  }
+#cu
+  {
+    background-color: #eac10b;
+    width: 60px;
+    height: 60px;
+    border-radius: 100% 100% 0 100%;
+    position: absolute;
+    top: 385px;
+    left: 537px;
+    text-align: center;
+  }
+#h3
+  {
+    text-decoration: none;
+    color: white;
+  }
+#Flogo
+  {
+    width: 150px;
+    height: 40px;
+    position: fixed;
+    top: 20px;
+    left: 200px;
+    border-radius: 0 13px 0 13px;
+  }
+#homeh1
+  {
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 190px;
+    left: 14px;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+#homeslogan
+  {
+    position: absolute;
+    top: 310px;
+    left: 37px;
+    color: #eac10b;
+    font-weight: bold;
+    font-size: 15px;
+  }
+#hshopbutton
+  {
+    position: absolute;
+    top: 360px;
+    left: 40px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to bottom right, #ffcc00 0%, #ffffcc 100%);
+  }
+#hshopbutton a
+  {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+#AHello, #GHello, #Hello
+  {
+    position: absolute;
+    top: 117px;
+    left: 40px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 19px;
+    background-color: transparent;
+    color: white;
+    text-shadow: 2px 2px 2px #eac10b;
+  }
+#buttons
+  {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 120px;
+    height: 50px;
+    border: none;
+  }
+#hello
+  {
+    position: absolute;
+    top: 177px;
+    left: 65px;
+    width: 100px;
+    height: 6px;
+    background: linear-gradient(to bottom right, #ffcc00 0%, #ffffcc 100%);
+    border: none;
+    border-radius: 7px;
+  }
+#AHello, #GHello
+  {
+    visibility: hidden;
+  }
+#buttons:hover #AHello
+  {
+    visibility: visible;
+  }
+#buttons:hover #Hello
+  {
+    visibility: hidden;
+  }
+#buttons:hover #GHello
+  {
+    visibility: hidden;
+  }
+#buttons:active #GHello
+  {
+    visibility: visible;
+  }
+#buttons:active #Hello
+  {
+    visibility: hidden;
+  }
+#buttons:active #AHello
+  {
+    visibility: hidden;
+  }
+#aboutusmaindiv
+  {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 450px;
+    left: 0;
+    background-image: url(Images/ChocolateAboutUs_FPL2_S&C.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#aboutusheader
+  {
+    position: absolute;
+    top: 450px;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    opacity: 0.56;
+  }
+#h1aboutus
+  {
+    position: absolute;
+    top: 620px;
+    left: 340px;
+    color: #eac10b;
+    animation-name: h1aboutus;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+  }
+@keyframes h1aboutus
+  {
+    0% {transform: translate(0,0);}
+    25% {transform: translate(0,-40px); text-shadow: 2px 2px 8px white;}
+    50% {transform: translate(0,0); text-shadow: none;}
+    75% {transform: translate(0,40px); text-shadow: 2px 2px 8px white;}
+    100% {transform: translate(0,0);}
+  }
+#wwd
+  {
+    width: 46%;
+    height: 430px;
+    position: absolute;
+    top: 460px;
+    left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+#s1, #s2, #s3, #s4
+  {
+    width: 44%;
+    height: 195px;
+    margin-top: 6px;
+    border: solid 2px goldenrod;
+  }
+#s2, #s3
+  {
+    background-color: black;
+    opacity: 0.6
+  }
+#s2p, #s3p
+  {
+    padding-left: 2px;
+    color: white;
+  }
+#s1i
+  {
+    position: absolute;
+    left: -40px;
+    top: 43px;
+    width: 225px;
+    height: 225px;
+  }
+#s4i
+  {
+    position: absolute;
+    top: 199px;
+    left: 120px;
+    width: 250px;
+    height: 250px;
+  }
+#portfoliomaindiv
+  {
+    width: 100%;
+    height: 910px;
+    position: absolute;
+    top: 900px;
+    left: 0;
+    background-image: url(Images/S&C_Portfolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#Portfolioheader
+  {
+    width: 100%;
+    height: 910px;
+    position: absolute;
+    top: 900px;
+    left: 0;
+    background-color: black;
+    opacity: 0.48;
+  }
+#h1portfolio
+  {
+    position: absolute;
+    top: 1030px;
+    left: 305px;
+    letter-spacing: 10px;
+    color: #eac10b;
+    text-shadow: 2px 1px 2px goldenrod;
+  }
+#portfolioimgs
+  {
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 1100px;
+    left: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+#fpic, #spic, #tpic, #fopic
+  {
+    background-color: white;
+    width: 160px;
+    height: 287px;
+    margin-top: 16px;
+    border-radius: 10px;
+  }
+#fimg
+  {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 28px;
+    left: 30px;
+  }
+#fp
+  {
+    position: absolute;
+    top: 160px;
+    left: 30px;
+    width: 140px;
+    height: 120px;
+  }
+#simg
+  {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 28px;
+    left: 228px;
+  }
+#sp
+  {
+    position: absolute;
+    top: 160px;
+    left: 228px;
+    width: 160px;
+    height: 120px;
+  }
+#timg
+  {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 328px;
+    left: 28px;
+  }
+#tp
+  {
+    position: absolute;
+    top: 460px;
+    left: 25px;
+    width: 155px;
+    height: 120px;
+  }
+#foimg
+  {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 328px;
+    left: 228px;
+  }
+#fop
+  {
+    position: absolute;
+    top: 460px;
+    left: 225px;
+    width: 155px;
+    height: 120px;
+  }
+#fimg, #simg, #timg, #foimg
+  {
+    border: solid 2px #eac10b;
+    border-radius: 13px;
+  }
